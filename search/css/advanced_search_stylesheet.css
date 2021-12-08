@@ -1,70 +1,81 @@
+/* line 1, ../sass/advanced_search_stylesheet.scss */
 body {
-	font-family: arial, sans-serif;
-	background-color: #fff;
-}
-a {
-	display: block;
-	text-align: right;
-	right: 5%;
-}
-h3 {
-	color: #de0b32;
-	font-size: 15pt;
-	padding: none;
-	margin: 50px 0px 30px 40px;
-	font-weight: normal;
-}
-p {
-	font-size: 12pt;
-	font-weight: normal;
-}
-form {
-	font-size: 12pt;
-	margin: 0px 0px 0px 35px;
-	padding: 40px 0px 0px 0px;
-}
-#container {
-	border-top: 1px solid #f1f1f1;
-}
-div {
-	display: block;
-	margin: 0 0 20px 0;
-	padding: 0;
-}
+  font-family: arial, sans-serif;
+  background-color: #fff; }
 
+/* line 5, ../sass/advanced_search_stylesheet.scss */
+a {
+  display: block;
+  text-align: right;
+  right: 5%; }
+
+/* line 10, ../sass/advanced_search_stylesheet.scss */
+h3 {
+  color: #de0b32;
+  font-size: 15pt;
+  padding: none;
+  margin: 50px 0px 30px 40px;
+  font-weight: normal; }
+
+/* line 17, ../sass/advanced_search_stylesheet.scss */
+p {
+  font-size: 12pt;
+  font-weight: normal; }
+
+/* line 21, ../sass/advanced_search_stylesheet.scss */
+form {
+  font-size: 12pt;
+  margin: 0px 0px 0px 35px;
+  padding: 40px 0px 0px 0px; }
+
+/* line 26, ../sass/advanced_search_stylesheet.scss */
+#container {
+  border-top: 1px solid #f1f1f1; }
+
+/* line 29, ../sass/advanced_search_stylesheet.scss */
+div {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 0; }
+
+/* line 35, ../sass/advanced_search_stylesheet.scss */
 label {
-	font-size: 10pt;
-}
+  font-size: 10pt; }
+
+/* line 38, ../sass/advanced_search_stylesheet.scss */
 input[type=text] {
-	position: absolute;
-	left: 220px;
-	height: 25px;
-	width: 40.5%;
-	transition: 0.5s;
-	border: 1px solid #c9cfd1;
-}
-input[type=text]:focus { 
-    outline: none;
-    border-color: #719ECE;
-    box-shadow: -2px 2px 2px -2px #719ECE;
-}
-input[type=submit]{
-	background-color: #4d7aff;
-	color: white;
-	font-size: 9pt;
-	text-align: center;
-	border: none;
-	border-radius: 2px;
-	margin: auto;
-	padding: 10px 10px 10px 10px;
-	display: block;
-	margin: auto;
-}
+  position: absolute;
+  left: 220px;
+  height: 25px;
+  width: 40.5%;
+  transition: 0.5s;
+  border: 1px solid #c9cfd1; }
+
+/* line 46, ../sass/advanced_search_stylesheet.scss */
+input[type=text]:focus {
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: -2px 2px 2px -2px #719ECE; }
+
+/* line 51, ../sass/advanced_search_stylesheet.scss */
+input[type=submit] {
+  background-color: #4d7aff;
+  color: white;
+  font-size: 9pt;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  display: block;
+  margin: auto; }
+
+/* line 63, ../sass/advanced_search_stylesheet.scss */
 input[type=submit]:hover {
-	border: .8px solid #2929d6;
-	border-radius: 2px;
-}
-input[value=hidden]{
-	width: 130px;
-	display= hidden;
-}
+  border: .8px solid #2929d6;
+  border-radius: 2px; }
+
+/* line 67, ../sass/advanced_search_stylesheet.scss */
+input[value=hidden] {
+  width: 130px;
+  display: hidden; }
