@@ -1,7 +1,24 @@
-# CS50w-websites
-Websites that I am creating while learning web programming with Python and Javascript 
-I am taking this course CS50W with Havardx or Edx and for our first project 
-We have to design 3 websites that look and function like the google search, google image search and advanced google search web pages
-This project folder named search has the html and css files as well as the images that i used to create those pages
-So far i have only used HTML and Css to implement the websites but i am planning to improve the design of the code by using some bootstrap and may some Sass as well
-Wish me luck!
+# CS50w-website
+
+This is the repository for the mock of google's search homepage.
+I built this site as project 0 for course cs50w web-development with python and javascript which I am doing online with Havardx on [Edx](). 
+
+The site is deployed here via github pages, and you can check out the demonstration on youtube.
+
+The site consists of three pages the Google search, Google Images and Google advanced search. Each one tries to mimick each one of those google pages.
+
+I used html, css and just a single line of javascript in image-search.html to implement this site.  
+
+The files for the site are in the <code>[docs folder](docs/)<code> and they are arranged as so
+- css/ #this folder contains the single stylesheet i used for all three pahes 
+  - google-search.css
+- images/ #this folder contains the three images used for the site
+  - google-logo.png
+  - google-logo2-png
+  - search-icon.png
+- advanced-search.html
+- image-search.html
+- index.html
+
+
+
