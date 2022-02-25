@@ -117,7 +117,7 @@ label {
 }
 
 input.gNO89b {
-	margin-right: 20px;
+	margin-right: 10px;
 	width: fit-content;
 }
 
@@ -125,6 +125,7 @@ input.submit-buttons {
 	width: fit-content;
 	display: inline;
 	margin: auto;
+	font-size: 10pt;
 }
 
 input.image-search.submit-buttons {
